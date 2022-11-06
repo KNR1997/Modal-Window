@@ -24,5 +24,8 @@ btnCloseModel.addEventListener('click', closeModal);
 
 overlay.addEventListener('click', closeModal);
 
+document.addEventListener('key' , function(e) {
+    console.log(e.key);
+});
 
 
